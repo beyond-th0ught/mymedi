@@ -1,9 +1,10 @@
-import React from 'react'
+import React  from 'react'
 import Home2 from './image/home-bg2.png'
 import Bacteria from './image/home1-icon2.png'
 import Virus from './image/home1-icon.png'
 
-export default function ads() {
+
+export default function Ads() {
     const data=[
         {
             name:"Anti-Bacterial",
