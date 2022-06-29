@@ -19,7 +19,7 @@ export default function swiper() {
       <SwiperSlide>Slide 4</SwiperSlide>
     </Swiper> */}
     <div>
-        <div class="w-full p-7  ">
+        <div class="w-full p-  ">
         <div class="flex my-4 justify-center bg-pink-100">
             <img class="w-7 h-4 mt-1" src={Quote}/>
             <div class="text-2xl font-bold text-blue-900">Latest reviews</div>
