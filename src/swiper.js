@@ -28,8 +28,8 @@ export default function swiper() {
         className="mySwiper"
       >
         <SwiperSlide>
-        <div className='m-6 w-[100%] h-auto  text-blue-900'>
-        <div class=" p-6 bg-white">
+        <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+        <div class=" rounded-sm p-6 bg-white">
         Everything is perfect. I would recommend!
         Mark J.
         Rated 4 out of 5
@@ -38,16 +38,16 @@ export default function swiper() {
         </div>
         </SwiperSlide>
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
                 I ordered on Friday evening and on Monday at 12:30 the package was with me. I have never encountered such a fast order processing.
                 Mark J.
                 Rated 5 out of 5
           </div>
             </div></SwiperSlide>
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
           There was a small mistake in the order. In return, I got the correct order and I could keep the wrong one for myself.
                 Mark J.
                 Rated 4.5 out of 5
@@ -55,8 +55,8 @@ export default function swiper() {
             </div>
             </SwiperSlide>
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
           I ordered on Friday evening and on Monday at 12:30 the package was with me. I have never encountered such a fast order processing.
             Mark J.
             Rated 5 out of 5
@@ -65,8 +65,8 @@ export default function swiper() {
             </div>
             </SwiperSlide>
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
           There was a small mistake in the order. In return, I got the correct order and I could keep the wrong one for myself.
             Mark J.
             Rated 4.5 out of 5
@@ -76,8 +76,8 @@ export default function swiper() {
             </SwiperSlide>
           
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
           I ordered on Friday evening and on Monday at 12:30 the package was with me. I have never encountered such a fast order processing.
             Mark J.
             Rated 5 out of 5
@@ -86,8 +86,8 @@ export default function swiper() {
             </div>
             </SwiperSlide>
           <SwiperSlide>
-          <div className='m-6 w-[100%] h-auto  text-blue-900'>
-          <div class=" p-6 bg-white">
+          <div className='  m-6 w-[100%] h-auto  text-blue-900'>
+          <div class=" rounded-sm p-6 bg-white">
           There was a small mistake in the order. In return, I got the correct order and I could keep the wrong one for myself.
             Mark J.
             Rated 4.5 out of 5

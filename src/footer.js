@@ -111,9 +111,9 @@ export default function footer() {
             </div>
         </div>
         <hr/>
-        <div class="flex p-5 items-center text-sm">
+        <div class="flex py-5 items-center text-sm mx-10">
                     <div class="text-blue-900 text-left">Copyright © 2020 Mymedi. All Rights Reserved</div>
-                    <div class="ml-[33%]"><img class=" h-9" src={Payment}/></div>
+                    <div class="ml-[318px]"><img class=" h-9" src={Payment}/></div>
                 </div>
     </div>
   )
