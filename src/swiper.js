@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Pagination, Autoplay } from "swiper";
 import Data from './data.js'
-import Rating from './rating.js'
+// import Rating from './rating.js'
 import ReactStars from 'react-stars'
 
 export default function swiper() {
