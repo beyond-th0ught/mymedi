@@ -30,8 +30,8 @@ export default function checkOut() {
     ]
   return (
     <div>
-            <div class="text-center my-5 text-2xl text-blue-900 font-medium">Check out the most popular categories</div>
-            <div class="bg-red-500 w-100vh flex">
+            <div class="text-center my-5 text-2xl  text-blue-900 font-medium">Check out the most popular categories</div>
+            <div class="bg-red-500 mb-20 w-100vh flex">
             {data.map((val, index)=>{
                 return(
                     <div class=" w-[23%] h-[23%] ml-4 rounded-md bg-gray-200 flex relative">

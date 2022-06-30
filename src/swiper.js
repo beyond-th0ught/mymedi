@@ -17,7 +17,7 @@ const ratingChanged = (newRating) => {
   return (
     <div>
     <div>
-        <div class="w-full p-10 bg-pink-100">
+        <div class="w-full p-8 bg-pink-100">
           <div class="flex my-4 p-3 justify-center bg-pink-100">
               <img class="w-7 h-4 mt-1" src={Quote}/>
               <div class="text-2xl font-bold text-blue-900">Latest reviews</div>
