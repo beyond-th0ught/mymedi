@@ -7,21 +7,19 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Pagination, Autoplay } from "swiper";
-import Data from './data.js'
-// import Rating from './rating.js'
+import Data from './data';
 import ReactStars from 'react-stars'
 
 export default function swiper() {
-  
 const ratingChanged = (newRating) => {
-  console.log(newRating)
-}
-
+        console.log(newRating)
+      }
   return (
     <div>
+      
     <div>
-        <div class="w-full p-10 bg-pink">
-          <div class="flex my-4 p-3 justify-center bg-pink-100">
+        <div class="w-full p-8 bg-pink">
+          <div class="flex my-4 p-3 justify-center bg-pink">
               <img class="w-7 h-4 mt-1" src={Quote}/>
               <div class="text-2xl font-bold text-blue-900">Latest reviews</div>
           </div>
@@ -29,38 +27,32 @@ const ratingChanged = (newRating) => {
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
-          pagination={{
-            clickable: true,
-          }}
           className="mySwiper"
           autoplay={true}
           modules={[Autoplay]}
           loop={true}
         >
-
-          {
-            Data.map((val, index) => {
-              return (
-                <SwiperSlide >
-                  <div className='m-6 w-[100%] h-auto  text-blue-900'>
-                    <div class=" rounded-md p-6 bg-white">
-                      <div>{val.comment}</div>
-                      <div>{val.commenter}</div>
-                      <ReactStars
-                        count={5}
-                        value={val.ranting}
-                        onChange={ratingChanged}
-                        size={24}
-                      
-                        color2={'#ffd700'} />
+        
+            {Data.map((val,index)=>{
+            return(
+                <SwiperSlide>
+                  <div className='w-[100%] h-auto  text-blue-900 my-9'>
+                    <div class=" rounded-md p-6 bg-white shadow-xl">
+                        <div class="text-md">{val.comment}</div>
+                        <div class="text-xs font-bold my-2">{val.commenter}</div>
+                        <ReactStars
+                            count={5}
+                            value={val.rating}
+                            onChange={ratingChanged}
+                            size={24}
+                            color2={'#ffd700'} />
                     </div>
                   </div>
                 </SwiperSlide>
-              )
-            })
-          }        
-          
-          
+            )
+        })}
+ 
+                 
         </Swiper>
         </div>
         </div>
